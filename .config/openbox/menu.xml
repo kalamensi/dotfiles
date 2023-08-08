@@ -31,7 +31,6 @@
       </item>
     </menu>
     <separator/>
-    <menu execute="al-places-pipemenu --recent ~/" id="pipe-placesmenu" label="Places"/>
     <separator/>
     <menu id="preferences" label="Preferences">
       <menu id="obConfig" label="Openbox">
@@ -74,9 +73,6 @@
           <action name="Restart"/>
         </item>
       </menu>
-      <menu execute="al-compton-pipemenu" id="ComptonPipeMenu" label="Compton"/>
-      <menu execute="al-conky-pipemenu" id="ConkyPipeMenu" label="Conky"/>
-      <menu execute="al-tint2-pipemenu" id="Tint2PipeMenu" label="Tint2"/>
       <separator/>
       <item label="Nitrogen">
         <action name="Execute">
